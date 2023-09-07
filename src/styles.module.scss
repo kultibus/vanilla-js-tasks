@@ -1,0 +1,31 @@
+$line: rgb(236, 236, 236);
+
+$headerHeight: 96px;
+
+.header {
+  width: 100%;
+  padding: 24px;
+  border-bottom: 1px solid $line;
+  min-height: $headerHeight;
+}
+
+.taskContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  min-height: calc(100vh - $headerHeight);
+
+  :global {
+    .column {
+      padding: 24px;
+      height: 100%;
+      border-right: 1px solid $line;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+}
+
+.task {
+}
