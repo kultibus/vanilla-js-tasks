@@ -1,5 +1,5 @@
 {
-  "name": "tasks",
+  "name": "vanilla-js-tasks",
   "version": "1.0.0",
   "description": "task manager",
   "main": "./src/index.js",
