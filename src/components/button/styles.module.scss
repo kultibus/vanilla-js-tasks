@@ -1,0 +1,18 @@
+@import '@src/styles/colors.scss';
+
+.app {
+  padding: 5px 10px;
+  border-radius: 12px;
+  background-color: $darkCoral;
+  border: 2px solid transparent;
+  transition: background-color 150ms ease, border 150ms ease;
+  &:hover {
+    background-color: $deepCoral;
+    border: 2px solid $marine;
+    & div {
+      transform: rotate(90deg);
+    }
+  }
+}
+
+

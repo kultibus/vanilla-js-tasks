@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('@src/fonts/inter/Inter-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('@src/fonts/inter/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('@src/fonts/inter/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('@src/fonts/inter/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('@src/fonts/inter/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+
+@font-face {
+  font-family: 'Fira';
+  src: url('@src/fonts/inter/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+
+// Fira
+
+@font-face {
+  font-family: 'Fira';
+  src: url('@src/fonts/fira/FiraCode-Bold.ttf') format('truetype');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+@font-face {
+  font-family: 'Fira';
+  src: url('@src/fonts/fira/FiraCode-Light.ttf') format('truetype');
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+@font-face {
+  font-family: 'Fira';
+  src: url('@src/fonts/fira/FiraCode-Medium.ttf') format('truetype');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+@font-face {
+  font-family: 'Fira';
+  src: url('@src/fonts/fira/FiraCode-Regular.ttf') format('truetype');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+@font-face {
+  font-family: 'Fira';
+  src: url('@src/fonts/fira/FiraCode-SemiBold.ttf') format('truetype');
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}

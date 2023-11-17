@@ -1,0 +1,31 @@
+@import '@src/styles/colors.scss';
+
+.head {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  // font-weight: 400;
+}
+
+.tasks {
+  position: relative;
+  width: fit-content;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  letter-spacing: -1.5px;
+  padding: 5px 15px;
+  border-radius: 12px;
+  background-color: $deepCoral;
+  border: 1px solid $marine;
+}
+
+.app {
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  // line-height: 1;
+}
+
+.form {
+  width: 100%;
+}
